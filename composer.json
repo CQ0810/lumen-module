@@ -38,7 +38,7 @@
     },
     "autoload": {
       "psr-4": {
-        "App\\": "app/"
+        "App\\": "src/app/"
       }
     },
     "autoload-dev": {
@@ -62,6 +62,13 @@
         "type": "composer",
         "url": "https://packagist.phpcomposer.com"
       }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Contents\\ContentsServiceProvider"
+            ]
+        }
+    }
   }
   
