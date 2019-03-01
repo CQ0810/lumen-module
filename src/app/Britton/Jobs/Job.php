@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Contents\Jobs;
+namespace App\Britton\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;

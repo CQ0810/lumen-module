@@ -1,11 +1,13 @@
 <?php
-namespace App\Contents\Providers;
+
+namespace App\Britton\Providers;
 
 use Illuminate\Support\ServiceProvider;
-class AdminServiceProvider extends ServiceProvider
+
+class ContentsServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        echo 'Contents Bootting.....';
+        require_once __DIR__ . '/../boot.php';
     }
 }

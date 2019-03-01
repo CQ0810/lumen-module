@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Contents\Jobs;
+namespace App\Britton\Jobs;
 
 
 class ExampleJob extends Job

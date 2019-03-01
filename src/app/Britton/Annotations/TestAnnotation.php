@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Contents\Annotations;
+namespace App\Britton\Annotations;
 
 use Doctrine\Common\Annotations\Annotation;
 
 /**
  * 实例注解，用于演示基本的使用
  * Class TestAnnotation
- * @package App\Contents\Annotation
+ * @package App\Britton\Annotation
  *
  * @Annotation
  * @Annotation\Target("METHOD")

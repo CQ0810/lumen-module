@@ -1,24 +1,21 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2019/2/27 0027
- * Time: 11:00
- */
 
-namespace App\Contents\Http\Controllers\Admin;
+namespace App\Britton\Http\Controllers\Admin;
 
-
-use App\Contents\Services\HomeService;
+use App\Britton\Services\HomeService;
 
 class HomeController
 {
-
-
     /**
-     * 首页
+     *
+     * @version  2019年03月01日
+     * @author   zj chen <britton@126.com>
+     * @license  PHP Version 7.x.x {@link http://www.php.net/license/3_0.txt}
+     *
      * @param HomeService $homeService
+     *
      * @return array
+     *
      */
     public function getCount(HomeService $homeService): array
     {

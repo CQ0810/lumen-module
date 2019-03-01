@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Contents\Http\Middleware;
+namespace App\Britton\Http\Middleware;
 
 use Closure;
 
